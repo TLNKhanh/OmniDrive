@@ -4,13 +4,13 @@ Dual H-bridge motor driver + ESP32 + USB-C PD, squeezed into a 45×59.5mm 2-laye
 
 I wanted a board that could work with a single USB-C port and have it drive two motors (or 2 pairs if configured) while able to measure the board's current draw.
 
-![schematic](hardware/photos/schematic.png)
-*Full schematic — click the PDF in hardware/ for better resolution*
+[![schematic](hardware/photos/schematic.png)](hardware/schematic.pdf)
+*Full schematic — click image or [open PDF](hardware/schematic.pdf)*
 
-![pcb_front](hardware/photos/pcb_front.png)
+![pcb_front](hardware/PCB_Top.png)
 *PCB front copper layer*
 
-![pcb_bottom](hardware/photos/pcb_bottom.png)
+![pcb_bottom](hardware/PCB_Bottom.png)
 *PCB bottom copper layer*
 
 ## What it does
