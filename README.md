@@ -41,7 +41,7 @@ I wanted something that could serve for multiple RC car or stepper driving proje
 
 ## Power flow
 
-USB-C VBUS → CH224K negotiates voltage → +BATT rail (5–20V depending on charger)
+USB-C VBUS → CH224K negotiates voltage → +BATT rail
 
 +BATT splits three ways:
 - Directly to the DRV8833 motor drivers
@@ -52,7 +52,7 @@ Motor current goes through a shared 0.1Ω sense resistor before reaching the dri
 
 ## Known issues / things to fix
 
-This is rev 1, so there are a few things I'll change next time:
+A few things I'll change next version:
 
 - The ME6211C33 is rated for 500mA and ESP32 can spike past that during WiFi TX. On a long USB-C cable with some voltage drop, the battery rail might sag enough to make the 3.3V regulator drop out. An AP2112 or similar low-dropout part would be safer.
 
