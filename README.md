@@ -28,14 +28,14 @@ I wanted something that could serve for multiple RC car or stepper driving proje
 
 ## Specs
 
-| Part | What |
+| Function| Component |
 |------|------|
 | MCU | ESP32-WROOM-32E |
-| Motor drivers | 2× DRV8833 (HTSSOP-16, 1.5A/ch) |
-| USB-C PD | CH224K sink, negotiates 5–20V |
+| Motor drivers | 2× DRV8833 (HTSSOP-16 with thermal pad) |
+| USB-C PD | CH224K sink, negotiates 9V |
 | Current sense | INA219, 0.1Ω shunt, I2C |
 | USB-UART | CH340C with auto DTR/RTS |
-| Logic power | ME6211C50 (5V) → ME6211C33 (3.3V) |
+| Logic power | ME6211C50 (5V), ME6211C33 (3.3V) |
 | Breakout | 14 GPIO, I2C, WS2812 on 1×8 header |
 | PCB | 2-layer, 1.6mm FR4, 45×59.5mm |
 
@@ -65,7 +65,7 @@ A few things I'll change next version:
 ```
 hardware/
 ├── schematic.pdf          — full schematic (click to view)
-├── PCB_Front.pdf          — front copper render
+├── PCB_Top.pdf            — front copper render
 ├── PCB_Bottom.pdf         — bottom copper render
 ├── gerbers.zip            — Gerbers + drill files
 ├── bom.csv                — BOM for JLCPCB assembly
