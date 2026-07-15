@@ -1,0 +1,23 @@
+# Editor/IDE backups
+.history/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# KiCad local files
+*.kicad_prl
+*.bak
+*-backup/
+fp-lib-table
+sym-lib-table
+
+# Build outputs (already tracked in hardware/)
+# hardware/gerbers/
+# hardware/bom.csv
+# hardware/pick-place.csv
