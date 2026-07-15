@@ -19,7 +19,7 @@ I wanted a board that could work with a single USB-C port and have it drive two 
 
 ## Why I built it
 
-I wanted something that could serve for multiple RC car or stepper driving projects without having to combine seperate modules.
+I wanted something that could serve for multiple RC car or stepper driving projects without having to combine separate modules.
 
 ## Specs
 
@@ -59,7 +59,7 @@ This is rev 1, so there are a few things I'll change next time:
 
 ```
 hardware/
-├── schematic.pdf          — full schematic
+├── schematic.pdf          — full schematic (click to view)
 ├── PCB_Front.pdf          — front copper render
 ├── PCB_Bottom.pdf         — bottom copper render
 ├── gerbers.zip            — Gerbers + drill files
