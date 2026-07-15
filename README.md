@@ -7,8 +7,8 @@ I wanted a board that could work with a single USB-C port and have it drive two 
 [![schematic](hardware/photos/schematic.png)](hardware/schematic.pdf)
 *Full schematic — click image or [open PDF](hardware/schematic.pdf)*
 
-[![pcb_front](hardware/PCB_Top.png)](hardware/PCB_Top.pdf)
-*PCB front copper layer — [open PDF](hardware/PCB_Top.pdf)*
+[![pcb_top](hardware/PCB_Top.png)](hardware/PCB_Top.pdf)
+*PCB top copper layer — [open PDF](hardware/PCB_Top.pdf)*
 
 [![pcb_bottom](hardware/PCB_Bottom.png)](hardware/PCB_Bottom.pdf)
 *PCB bottom copper layer — [open PDF](hardware/PCB_Bottom.pdf)*
