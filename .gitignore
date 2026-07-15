@@ -20,4 +20,4 @@ sym-lib-table
 # Build outputs (already tracked in hardware/)
 # hardware/gerbers/
 # hardware/bom.csv
-# hardware/pick-place.csv
+# hardware/pick-place.csv*.lck
