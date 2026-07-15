@@ -36,7 +36,7 @@ I wanted something that could serve for multiple RC car or stepper driving proje
 | Current sense | INA219, 0.1Ω shunt, I2C |
 | USB-UART | CH340C with auto DTR/RTS |
 | Logic power | ME6211C50 (5V), ME6211C33 (3.3V) |
-| Breakout | 14 GPIO, I2C, WS2812 on 1×8 header |
+| Breakout | 12 GPIO through 2x 3x2 header, Power through 1x 3x1 header|
 | PCB | 2-layer, 1.6mm FR4, 45×59.5mm |
 
 ## Power flow
@@ -65,7 +65,7 @@ A few things I'll change next version:
 ```
 hardware/
 ├── schematic.pdf          — full schematic (click to view)
-├── PCB_Top.pdf            — front copper render
+├── PCB_Top.pdf            — top copper render
 ├── PCB_Bottom.pdf         — bottom copper render
 ├── gerbers.zip            — Gerbers + drill files
 ├── bom.csv                — BOM for JLCPCB assembly
